@@ -1,5 +1,5 @@
 function makeBuffer() {
-    var text = '';
+    let text = '';
 
     return function(piece) {
         if (arguments.length == 0) {
